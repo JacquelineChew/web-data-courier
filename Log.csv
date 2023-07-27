@@ -1,0 +1,17 @@
+Successful or Unsuccessful,Server Status Code,Requested URL,hostname,source IP,destination IP,source port,destination port,Server Response line (including code and phrase)
+Successful,200,http://neverssl.com/,neverssl.com,10.0.0.193,13.226.219.37,63998,80,"HTTP/1.1 200 OK
+"
+
+Successful,200,http://demo.borland.com/testsite/stadyn_largepagewithimages.html,demo.borland.com,10.0.0.193,143.186.120.171,64000,80,"HTTP/1.1 200 OK
+"
+
+Unsuccessful,404,http://www.google.com/somedoc1.html:80,www.google.com,10.0.0.193,142.251.32.36,64013,80,"HTTP/1.1 404 Not Found
+"
+
+Unsuccessful,404,http://www.example.com/anyname.html,www.example.com,10.0.0.193,93.184.216.34,64015,80,"HTTP/1.1 404 Not Found
+"
+
+Unsuccessful,301,http://www.ucla.edu,www.ucla.edu,10.0.0.193,13.226.230.114,64018,80,"HTTP/1.1 301 Moved Permanently
+"
+
+Unsuccessful,,http://www.google.com:443,www.google.com,10.0.0.193,142.251.32.36,64019,443,curl: (52) Empty reply from server
